@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <script src="../js/script.js"></script> 	
+<title>Order</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">    
+</head>
+
+<body>
+  <div class="mydiv">
+    <div class="common">
+        <form method="post" enctype="post" action="mailto:kmolema@gmail.com">
+          <h3>ORDER FORM</h3>
+          <!-- <a href="../index.htm" target="_top"><b>Home</b></a> > <a href="order.htm" title="Products"><b>Order</b></a> -->
+		  <P>Please fill in the order form and click the Send email to send your order</P>
+		  <div class="input">
+			  <table align="center" CELLPADDING="2" CELLSPACING="2">
+				<tr>
+				  <td >*Your Name: </td>
+				  <td ><input type="text" name="yourname" size="27"></td>
+			   </tr>
+				<tr>
+				  <td >*Your Email address: </td>
+				  <td ><input type="text" name="email" size="27"></td>
+			   </tr>
+					  <tr >
+						<td valign="top">
+						  Comments:
+						</td>
+						<td ><textarea name="suggestions" rows="5" cols="22" wrap="soft"></textarea></td>
+					  </tr>
+		
+					<TR>
+						<td valign="top">
+ 							&nbsp;
+ 						</td>
+						<TD>
+							&nbsp;
+						</TD>
+						
+					<TR>
+						<td valign="top">
+						  <b>Products to order:</b><BR>
+							<INPUT type= checkbox name = "box0"> Point Of Sale<BR>
+							<INPUT type= checkbox name = "box1"> Enterprise Resource Planning<BR>
+							<INPUT type= checkbox name = "box2"> Payrol<BR>
+						</td>
+						<TD>
+						  <b>Services to order:</b><BR>
+							<INPUT type= checkbox name = "box0"> Website Hosting<BR>
+							<INPUT type= checkbox name = "box1"> Website Design<BR>
+							<INPUT type= checkbox name = "box2"> Computer Networking<BR>
+						</TD>
+						
+						<!-- Radio buttons for payment method //-->
+						
+					</TR>
+				  </table>
+				  <div>
+				        <BR>
+						<B>Choose your method of payment.</B>
+						<BR>
+						<INPUT type= radio name = "payment">Credit card &nbsp;
+						<INPUT type= radio name = "payment" >Bill me<BR><BR>
+						<input type="submit" name="submit" value="Send email" onClick="return checkorderform(this.form)"> &nbsp;
+						<input type="reset" value="Reset">
+				  </div>
+				  <table>
+					  <tr>
+					  </tr>
+				  </table>
+			</div>	 
+       </form> 
+     </div>    
+  </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+    #slideShowImages { /* The following CSS rules are optional. */
+      /*border: 1px gray solid;*/
+      background-color: white;
+      text-align : center ;
+    }   
+  
+    #slideShowImages img { /* The following CSS rules are optional. */
+      /*border: 0.8em black solid;*/
+      /*padding: 3px;*/
+      text-align : center ;
+    }   
