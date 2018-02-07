@@ -1,228 +1,230 @@
-body {
-  background: #0ca3d2;
-}
-.mydiv {
-	background-color: black;
-	background-image : url(../images/pageBG.png) ;
-	height : 100% ;
-	text-align: center;
-    background-size: 100%
-}
-.title {
-	background-image : url(../images/tech-banner-bg.png) ;
-}	
-.mydiv .common {
-    background-color : white ;
-    width : 80% ;
-	margin: 0 auto;
-	height : 100% ;
-}
-.mydiv .common form {
-    background-image : url(../images/cards.jpg) ;
-    width : 100% ;
-	height : 100% ;
-}
-.mydiv .common form .input {
-	background-color : white ;
-	background-image : url(../images/site_background.gif) ;
-	margin: 0 auto;
-	color: RGB(128, 0, 0);
-    width: 70%;
-}
-.mydiv .common form .input td {
-    color: RGB(128, 0, 0);
- }
-.mydiv .about {
-    background-color : white ;
-	margin: 0 auto;
-	text-align: justify;
-    width : 70% ;
-    padding: 2% 2% 0 2%;
-    color: #400080;
-}
-.mydiv .about h3{
-    font-style: italic;
-}
-.mydiv .about p {
-  font-size: 16px;
-}
-.mydiv .contacts {
-	height : 90% ;
-    background-color : white ;
-    
-    width : 70% ;
-	margin: 0 auto;
-	text-align: left;
-}
-
-.mydiv .forum {
-       font-size: 85%;
-       margin-bottom: 20px;
-       background-color: inherit;
-       width: 80%;
-       margin: 0 auto;
-}
-.mydiv form {
-  background-color : black ;
-  width : 70% ;
-  margin : 0 auto ;
-}
-.mydiv .contacts img {
-  vertical-align : top ;
-}
-.mydiv .body {
-	width: 960px;
-	margin: 0 auto 0;
-}
-.mydiv .products {
-  background-color : white ;
-  margin: 0 auto;
-  width : 70% ;
-  background-image : url(../images/technology_globe_plug.jpg) ;
-  height : 100% ;
-}
-.mydiv .products .pos{
-  background-image : url(../images/ipad_pos_pro.jpg) ;
-  height : 100% ;
-  padding-bottom : 2% ;
-  text-align: left;   
-}
-.mydiv .products .pos span, .mydiv .products .erp span, .mydiv .products .payroll span {
-    font-family: Franklin Gothic Book;
-    font-weight: 700;
-    font-style: italic;
-}
-.mydiv .products .pos p {
-	color: RGB(128, 0, 0);
-	text-align: justify;
-    background-color : white ;	
-    padding : 2% ;
-}
-.mydiv .products .erp{
-  background-image : url(../images/ERP-5.jpg) ;
-  height : 100% ;
-  text-align: left;   
-}
-.mydiv .products .erp p {
-	color: RGB(128, 0, 0);
-	text-align: justify;
-    background-color : white ;	
-    padding : 2% ;
-    background: rgba(255, 255, 255, 0.8);
-}
-.mydiv .products .erp ul{
-    text-align : left ;
-    font-size: 16px;
-    color: RGB(128, 0, 0); 
-}
-.mydiv .products .payroll{
-  background-image : url(../images/Payroll_software_big.jpg) ;
-  height : 100% ;
-  text-align: left;   
-}
-.mydiv .products .payroll p {
-	color: RGB(128, 0, 0);
-	text-align: justify;
-    background-color : white ;	
-    padding : 0% 2% 0 2% ;
-}
-.mydiv .products .payroll ul{
-    text-align : left ;
-    font-size: 16px;
-    color: RGB(128, 0, 0); 
-}
-.mydiv div.images {
-	float: right;
-	display: inline-block;
-	height: 281px;
-	width: 710px;
-	overflow: hidden;
-}
-.mydiv div.images img.preview {
-	float: left;
-	margin-right: 2px;
-}
-.mydiv div.images img.last {
-	position: relative;
-	top: -2px;
-}
-.mydiv .details {
-    background-color : white ;
-	height: 200px;
-	width: 200px;
-	padding: 40px 20px 40px 10px;
-	background-size: 100%;
-    font-weight: 700;
-}
-.mydiv .details p {
-	color: #FF8040;
-	font-size: 14px;
-	line-height: 20px;
-	text-align: justify;
-}
-.mydiv .details p span {
-	color: #800040;
-	display: block;
-	font-size: 16px;
-	line-height: 20px;
-	padding: 0 0 20px;
-	text-align: center;
-}
-.mydiv .details p span a {
-	color: #073f5a;
-	font-weight: bold;
-	text-decoration: none;
-}
-.mydiv .footer {
-	height: 46px;
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-	text-align : left ;
-}
-.mydiv div.footer ul {
-	background-color: #dcdcdc;
-	display: inline-block;
-	width: 960px;
-	list-style: none;
-	margin: 0 auto;
-	border-radius: 3px;
-	padding: 0;
-	position: absolute;
-	bottom: -80px;
-}
-.mydiv div.footer ul li {
-	float: left;
-	width: 280px;
-	padding: 20px 20px 18px;
-}
-.mydiv div.footer ul li img {
-	float: left;
-	margin-right: 10px;
-	height : 80px ;
-	width : 88px ;
-}
-.mydiv div.footer ul li p {	
-	font-size: 14px;
-	height: 88px;
-	line-height: 20px;
-	margin: 0;
-}
-.mydiv div.footer ul li p a {
-	color: #6A0000;
-	font-weight: bold;
-    text-decoration: underline;
-    font-size: 18px;
-}
-#background {
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
-    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
-}
-.stretch {
-    width:100%;
-    height:100%;
-}
+body {
+  background: #0ca3d2;
+}
+.mydiv {
+	background-color: #ffffff;
+	background-image : url(../images/pageBG.png) ;
+	height : 100% ;
+	text-align: center;
+    background-size: 100%
+}
+.title {
+	background-image : url(../images/tech-banner-bg.png) ;
+}	
+.mydiv .common {
+    background-color : white ;
+    width : 80% ;
+	margin: 0 auto;
+	height : 100% ;
+}
+.mydiv .common form {
+    background-image : url(../images/cards.jpg) ;
+    width : 100% ;
+	height : 100% ;
+}
+.mydiv .common form .input {
+	background-color : white ;
+	background-image : url(../images/site_background.gif) ;
+	margin: 0 auto;
+	color: RGB(128, 0, 0);
+    width: 70%;
+}
+.mydiv .common form .input td {
+    color: RGB(128, 0, 0);
+ }
+.mydiv .about {
+    background-color : white ;
+	margin: 0 auto;
+	text-align: justify;
+    width : 70% ;
+    padding: 2% 2% 0 2%;
+    color: #400080;
+}
+.mydiv .about h3{
+    font-style: italic;
+}
+.mydiv .about p {
+  font-size: 16px;
+}
+.mydiv .contacts {
+	height : 90% ;
+    background-color : white ;
+    background-image : url(../images/contactusbg.jpg) ;    
+    width : 70% ;
+	margin: 0 auto;
+	text-align: center;
+}
+.mydiv .contacts table {
+    margin : 0 auto ;
+}
+.mydiv .forum {
+       font-size: 85%;
+       margin-bottom: 20px;
+       background-color: inherit;
+       width: 80%;
+       margin: 0 auto;
+}
+.mydiv form {
+  background-color : white ;
+  width : 70% ;
+  margin : 0 auto ;
+}
+.mydiv .contacts img {
+  vertical-align : top ;
+}
+.mydiv .body {
+	width: 960px;
+	margin: 0 auto 0;
+}
+.mydiv .products {
+  background-color : white ;
+  margin: 0 auto;
+  width : 70% ;
+  background-image : url(../images/technology_globe_plug.jpg) ;
+  height : 100% ;
+}
+.mydiv .products .pos{
+  background-image : url(../images/ipad_pos_pro.jpg) ;
+  height : 100% ;
+  padding-bottom : 2% ;
+  text-align: left;   
+}
+.mydiv .products .pos span, .mydiv .products .erp span, .mydiv .products .payroll span {
+    font-family: Franklin Gothic Book;
+    font-weight: 700;
+    font-style: italic;
+}
+.mydiv .products .pos p {
+	color: RGB(128, 0, 0);
+	text-align: justify;
+    background-color : white ;	
+    padding : 2% ;
+}
+.mydiv .products .erp{
+  background-image : url(../images/ERP-5.jpg) ;
+  height : 100% ;
+  text-align: left;   
+}
+.mydiv .products .erp p {
+	color: RGB(128, 0, 0);
+	text-align: justify;
+    background-color : white ;	
+    padding : 2% ;
+    background: rgba(255, 255, 255, 0.8);
+}
+.mydiv .products .erp ul{
+    text-align : left ;
+    font-size: 16px;
+    color: RGB(128, 0, 0); 
+}
+.mydiv .products .payroll{
+  background-image : url(../images/Payroll_software_big.jpg) ;
+  height : 100% ;
+  text-align: left;   
+}
+.mydiv .products .payroll p {
+	color: RGB(128, 0, 0);
+	text-align: justify;
+    background-color : white ;	
+    padding : 0% 2% 0 2% ;
+}
+.mydiv .products .payroll ul{
+    text-align : left ;
+    font-size: 16px;
+    color: RGB(128, 0, 0); 
+}
+.mydiv div.images {
+	float: right;
+	display: inline-block;
+	height: 281px;
+	width: 710px;
+	overflow: hidden;
+}
+.mydiv div.images img.preview {
+	float: left;
+	margin-right: 2px;
+}
+.mydiv div.images img.last {
+	position: relative;
+	top: -2px;
+}
+.mydiv .details {
+    background-color : white ;
+	height: 200px;
+	width: 200px;
+	padding: 40px 20px 40px 10px;
+	background-size: 100%;
+    font-weight: 700;
+}
+.mydiv .details p {
+	color: #FF8040;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+.mydiv .details p span {
+	color: #800040;
+	display: block;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 0 0 20px;
+	text-align: center;
+}
+.mydiv .details p span a {
+	color: #073f5a;
+	font-weight: bold;
+	text-decoration: none;
+}
+.mydiv .footer {
+	height: 46px;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	text-align : left ;
+}
+.mydiv div.footer ul {
+	background-color: #dcdcdc;
+	display: inline-block;
+	width: 960px;
+	list-style: none;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding: 0;
+	position: absolute;
+	bottom: -80px;
+}
+.mydiv div.footer ul li {
+	float: left;
+	width: 280px;
+	padding: 20px 20px 18px;
+}
+.mydiv div.footer ul li img {
+	float: left;
+	margin-right: 10px;
+	height : 80px ;
+	width : 88px ;
+}
+.mydiv div.footer ul li p {	
+	font-size: 14px;
+	height: 88px;
+	line-height: 20px;
+	margin: 0;
+}
+.mydiv div.footer ul li p a {
+	color: #6A0000;
+	font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+.stretch {
+    width:100%;
+    height:100%;
+}
