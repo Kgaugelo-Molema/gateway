@@ -3,6 +3,14 @@
   <link rel="stylesheet" type="text/css" href="../css/style.css">
   <link rel="stylesheet" type="text/css" href="../css/css-menu.css">  
   <!--<script src="../js/validate.js"></script>-->
+  <script>
+      function menuclick(anchor){
+          var a = document.getElementsByClassName('current')[0];
+          a.classList.remove('current');
+          anchor.classList.add('current');
+      }
+   </script>
+      
 </head>
 <body>
   <!-- <div class="container">
@@ -17,12 +25,12 @@
   </div> -->
   
   <div class="menu4">
-    <a href="home.htm" class="current" target="contentframe"><span>Home</span></a>
-    <a href="products.htm" target="contentframe"><span>Products</span></a>
-    <a href="order.htm" target="contentframe"><span>Order</span></a>
-    <a href="about.htm" target="contentframe"><span>About</span></a>
-    <a href="contactus.htm" target="contentframe"><span>Contact us</span></a>
-    <a href="../pages/forum.htm" target="contentframe"><span>Forum</span></a>
+    <a href="home.htm" class="current" target="contentframe" onclick="menuclick(this)"><span>Home</span></a>
+    <a href="products.htm" target="contentframe" onclick="menuclick(this)"><span>Products</span></a>
+    <a href="order.htm" target="contentframe" onclick="menuclick(this)"><span>Order</span></a>
+    <a href="about.htm" target="contentframe" onclick="menuclick(this)"><span>About</span></a>
+    <a href="contactus.htm" target="contentframe" onclick="menuclick(this)"><span>Contact us</span></a>
+    <a href="../pages/forum.htm" target="contentframe" onclick="menuclick(this)"><span>Forum</span></a>
   </div>
   <div class="menu4sub"> </div>
   
